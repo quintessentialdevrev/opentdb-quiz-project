@@ -1,2 +1,2 @@
-# opentdb-quiz-project
-gdsc-task
+# Netlify
+https://guileless-pudding-f4bb2f.netlify.app/
