@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      {console.log(qns.results[0].correct_answer)}  
+      <h1>Under progress...</h1>
     </div>
   )
 }
