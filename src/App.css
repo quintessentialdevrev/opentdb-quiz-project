@@ -1,0 +1,10 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  padding: 1rem;
+  border: 1px solid black;
+}

@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import MyCard from './MyCard'
+import YourProgress from './YourProgress'
+import EnterChoice from './EnterChoice'
 
 function App() {
   const [qns, setQns] = useState(0)
@@ -12,7 +15,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Under progress...</h1>
+      <div className='mainContent'>
+        <EnterChoice />
+        <MyCard />
+        <YourProgress />
+      </div>
     </div>
   )
 }
