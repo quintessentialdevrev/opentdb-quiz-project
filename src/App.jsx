@@ -4,6 +4,7 @@ import './App.css'
 import MyCard from './MyCard'
 import YourProgress from './YourProgress'
 import EnterChoice from './EnterChoice'
+import Example from './Example'
 
 function App() {
   const [qns, setQns] = useState(0)
@@ -16,9 +17,10 @@ function App() {
   return (
     <div className="App">
       <div className='mainContent'>
-        <EnterChoice />
-        <MyCard />
-        <YourProgress />
+        {/* <EnterChoice /> */}
+        {/* <MyCard /> */}
+        {/* <YourProgress /> */}
+        <Example />
       </div>
     </div>
   )
